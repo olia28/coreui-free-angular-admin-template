@@ -18,3 +18,5 @@ COPY --from=build /app/dist/coreui-free-angular-admin-template/browser /usr/shar
 
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
+
+# retry 2
