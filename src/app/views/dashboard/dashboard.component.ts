@@ -52,7 +52,7 @@ export class DashboardComponent implements OnInit {
 
   public users: IUser[] = [
     {
-      name: 'Yiorgos Avraamu',
+      name: 'Olha Klishchevska',
       state: 'New',
       registered: 'Jan 1, 2021',
       country: 'Us',
